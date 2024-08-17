@@ -9,7 +9,7 @@
 #include <map>
 #include <vector>
 #include <cassert>
-
+#include <string>
 #include "NvInfer.h"
 
 nvinfer1::ITensor* implicitLayer(

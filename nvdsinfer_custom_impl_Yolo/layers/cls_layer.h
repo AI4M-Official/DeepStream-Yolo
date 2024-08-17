@@ -8,7 +8,7 @@
 
 #include <map>
 #include <cassert>
-
+#include <string>
 #include "NvInfer.h"
 
 nvinfer1::ITensor* clsLayer(
