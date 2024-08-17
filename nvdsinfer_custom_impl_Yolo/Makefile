@@ -23,12 +23,12 @@
 # https://www.github.com/marcoslucianops
 ################################################################################
 
-CUDA_VER?=
+CUDA_VER?=1
 ifeq ($(CUDA_VER),)
 	$(error "CUDA_VER is not set")
 endif
 
-OPENCV?=
+OPENCV?=1
 ifeq ($(OPENCV),)
 	OPENCV=0
 endif
